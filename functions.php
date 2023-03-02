@@ -1472,7 +1472,7 @@ function autocomplete_um(){
 	<?php
 	ob_start();
 	
-	$apiKey = 'AIzaSyB0p3Eu11ApOngj_y5RGPtl0ZuZwbkD_ec';    
+	$apiKey = 'api-key-here';    
     wp_enqueue_script('google-maps', "https://maps.googleapis.com/maps/api/js?key={$apiKey}&libraries=places&callback=initAutocomplete", array(), false, true);
 
     wp_add_inline_script('google-maps', ob_get_clean(), 'before');	
@@ -1486,7 +1486,7 @@ function autocomplete_um(){
 	<?php
 	ob_start();
 	
-	$apiKey = 'AIzaSyB0p3Eu11ApOngj_y5RGPtl0ZuZwbkD_ec';    
+	$apiKey = 'api-key-here';    
     wp_enqueue_script('google-maps', "https://maps.googleapis.com/maps/api/js?key={$apiKey}&libraries=places&callback=initAutocomplete", array(), false, true);
 
     wp_add_inline_script('google-maps', ob_get_clean(), 'before');	
